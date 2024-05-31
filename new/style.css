@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppise' , sans-serif;
+    box-sizing: border-box;
+
+}
+.contaner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pic\ 1.jpg);
+    background-size: cover;
+}
+.contaner .main2{
+    padding-top: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main1{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  /* background-color: aqua; */
+  border-bottom: 1px solid rgb(207, 201, 201);
+  /* border-radius: 0px 0px 5px 5px; */
+}
+.main1 .main2{
+    padding-left: 20px;
+}
+
+.main1 .imge{
+    padding-top: 20px;
+    padding-left: 35%;
+    
+}
+.icon{
+    margin: 40px;
+    padding-left: 350px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.main1 .imge img{
+color:white;
+justify-content: space-around;
+}
+
+.navbar ul{
+    padding-top: 20px;
+    text-align: center;
+    /* padding-left: 300px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar ul li {
+    list-style: none;
+    
+}
+.navbar ul li a{
+    width: 200px;
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    color: rgb(2, 11, 19);
+    padding:5px 20px;
+    justify-content: space-between;
+    padding-left: 100px; 
+}
+
+.main3{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+}
+.main3 .icons{
+    padding-top:20px ;
+    padding-left:30px ;
+}
+.icons i {
+    padding-right: 20px;
+    font-size: 20px;
+}
+.main3 .btn1{
+    
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.main3 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: blue;
+}
+.heading{
+    font-size: large;
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(2, 14, 26);
+}
+.heading p {
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: large;
+}
+.heading button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 15px 15px 15px 15px;
+}
+.contaner2{
+    
+    width: 100%;
+    height: 500px;
+    background-color: rgb(51, 51, 245);
+}
+.contaner2 .info{
+    
+    display: flex;
+    padding-top:250px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+
